@@ -1,0 +1,25 @@
+guardrails:
+  - type: "block"
+    content: 
+      - "violence"
+      - "hate"
+      - "explicit"
+      - "illegal"
+      - "drugs"
+    response: "Sorry, I cannot provide that information."
+
+  - type: "block"
+    content: 
+      - "pizza"
+      - "sports"
+    response: "I can't engage in that topic."
+    
+  - type: "warn"
+    content:
+      - "pokemon"
+      - "pikachu"
+      - "pokemon battle"
+      - "trainer"
+      - "pokémon universe"
+      - "poké"
+    response: "I cannot discuss anything related to Pokemon."

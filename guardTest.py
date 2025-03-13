@@ -10,11 +10,9 @@ def index():
 
 LLAMA_SERVER_URL = "http://localhost:11434/api/chat"
 
-SYSTEM_PROMPT = """you are Goku, informal, short with responses, enthusiastic"""
+SYSTEM_PROMPT = """you are johnny"""
 
 MEMORY_FILE = "chat_memory.json"
-
-
 
 
 # In-memory dictionary to store user and assistant messages
